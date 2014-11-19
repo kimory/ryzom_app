@@ -15,32 +15,38 @@
     
     <p id="erreur"></p>
     
-    <p id="lien_caracteristiques" class="btn" onclick="afficher('caracteristiques');">Caractéristiques</p>
-    <div id="caracteristiques" class="invisible marge_haute_reduite">
-        <p>Vie<br>
-        Constitution : <span id="constitution"></span><br>
-        Métabolisme : <span id="metabolisme"></span></p>
+    <div id="caracteristiques">
+        <p id="lien_caracteristiques" class="btn" onclick="afficher('contenu_caracteristiques');">Caractéristiques</p>
         
-        <p>Sève<br>
-        Intelligence : <span id="intelligence"></span><br>
-        Sagesse : <span id="sagesse"></span></p>
-        
-        <p>Endurance<br>
-        Force : <span id="force"></span><br>
-        Équilibre : <span id="equilibre"></span></p>
-        
-        <p>Concentration<br>
-        Dextérité : <span id="dexterite"></span><br>
-        Volonté : <span id="volonte"></span></p>
+        <div id="contenu_caracteristiques" class="invisible marge_haute_reduite">
+            <p>Vie<br>
+            Constitution : <span id="constitution"></span><br>
+            Métabolisme : <span id="metabolisme"></span></p>
+
+            <p>Sève<br>
+            Intelligence : <span id="intelligence"></span><br>
+            Sagesse : <span id="sagesse"></span></p>
+
+            <p>Endurance<br>
+            Force : <span id="force"></span><br>
+            Équilibre : <span id="equilibre"></span></p>
+
+            <p>Concentration<br>
+            Dextérité : <span id="dexterite"></span><br>
+            Volonté : <span id="volonte"></span></p>
+        </div>
     </div>
     
-    <div id="competences">
+    <div id="competences" class="marge_haute_reduite">
+        <p id="lien_competences" class="btn" onclick="afficher('contenu_competences');">Compétences</p>
+        
+        <div id="contenu_competences" class="invisible marge_haute_reduite"></div>
     </div>
 
     <br>
     
     <div class="centre">
-        <a class="btn" href="index.html">retour</a>
+        <a class="btn arrondi" href="index.html">retour</a>
     </div>
     
     <script src="js/key.js"></script>

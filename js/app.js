@@ -1,4 +1,4 @@
-// pour simplifier la lecture :
+// pour simplifier la lecture
 function $(x) {return document.getElementById(x);}
 
 // renvoie le texte correspondant au code en paramètre (ex : scja = créer anneau cheville)
@@ -6,10 +6,15 @@ function getNameByCode(code){ // prend en paramètre un String
     return codes[code];
 }
 
+// fait apparaître ou disparaître un élément (div...)
 function afficher(object_id){
- 	var obj = $(object_id)	
-	if(obj.style.display == 'block') obj.style.display='none'
-	else obj.style.display='block'
+    var obj = $(object_id);
+    
+    if(obj.style.display == 'block'){
+        obj.style.display='none';
+    }else{
+        obj.style.display='block';
+    }
 }
 
 var xhr = new XMLHttpRequest();
@@ -96,7 +101,7 @@ xhr.onreadystatechange  = function()
                     paragraphe_competence.appendChild(noeud_competence);
                     // le style du paragraphe :
                     paragraphe_competence.classList.add("marge_haute_reduite");
-                    $('competences').appendChild(paragraphe_competence);
+                    $('contenu_competences').appendChild(paragraphe_competence);
 
                     // pour récupérer le niveau max
                     if(niveau > niveau_max){
@@ -113,7 +118,7 @@ xhr.onreadystatechange  = function()
                 // le style du paragraphe :
                 paragraphe_competence_max.classList.add("marge_basse_augmentee");
                 // syntaxe → node.insertBefore(newnode, existingchild);
-                $('competences').insertBefore(paragraphe_competence_max, $('competences').firstChild);
+                $('contenu_competences').insertBefore(paragraphe_competence_max, $('contenu_competences').firstChild);
                
         }else{
             // document.ajax.dyn = "Error code " + xhr.status;

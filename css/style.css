@@ -1,3 +1,8 @@
+/* toute l'appli */
+body{
+    background-color: #DDFED6; /* vert très pâle */
+}
+
 /* div contenant l'image sur la page "d'accueil" */
 #image_accueil{
     margin-top: 15%;
@@ -17,31 +22,37 @@
 
 /* style du bouton */
 .btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    /* couleurs initiales (bleu) : #3498db, #2980b9 */
+    background: #52AE40;
+    background-image: -webkit-linear-gradient(top, #52AE40, #166705);
+    background-image: -moz-linear-gradient(top, #52AE40, #166705);
+    background-image: -ms-linear-gradient(top, #52AE40, #166705);
+    background-image: -o-linear-gradient(top, #52AE40, #166705);
+    background-image: linear-gradient(to bottom, #52AE40, #166705);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+/* coins arrondis */
+.arrondi{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
 }
 
 /* style du bouton au moment où on "clique" dessus */
 .btn:active {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+    /* couleurs initiales (bleu) : #3cb0fd, #3498db */
+    background: #3FBA26;
+    background-image: -webkit-linear-gradient(top, #3FBA26, #52AE40);
+    background-image: -moz-linear-gradient(top, #3FBA26, #52AE40);
+    background-image: -ms-linear-gradient(top, #3FBA26, #52AE40);
+    background-image: -o-linear-gradient(top, #3FBA26, #52AE40);
+    background-image: linear-gradient(to bottom, #3FBA26, #52AE40);
+    text-decoration: none;
 }
 
 /* _le_ message d'erreur Ajax si il y a lieu */
@@ -63,4 +74,16 @@
 /* ce qui n'est (au départ) pas visible */
 .invisible{
    display : none;
+}
+
+/* la div contenant les caractéristiques */
+#caracteristiques{
+    /* background-color: #BEE2EB; bleu clair */
+    background-color: #BEEFB4; /* vert clair */
+}
+
+/* la div contenant les compétences */
+#competences{
+    /* background-color: #C390D5; violet clair */
+    background-color: #BEEFB4; /* vert clair */
 }
