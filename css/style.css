@@ -44,8 +44,23 @@
   text-decoration: none;
 }
 
-/* message d'erreur (Ajax) */
+/* _le_ message d'erreur Ajax si il y a lieu */
 #erreur{
     color:red;
     font-weight:bold;
+}
+
+/* marge haute réduite */
+.marge_haute_reduite{
+    margin-top : -5%;
+}
+
+/* marge basse plus grande */
+.marge_basse_augmentee{
+    margin-bottom : 10%;
+}
+
+/* ce qui n'est (au départ) pas visible */
+.invisible{
+   display : none;
 }

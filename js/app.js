@@ -6,6 +6,12 @@ function getNameByCode(code){ // prend en paramètre un String
     return codes[code];
 }
 
+function afficher(object_id){
+ 	var obj = $(object_id)	
+	if(obj.style.display == 'block') obj.style.display='none'
+	else obj.style.display='block'
+}
+
 var xhr = new XMLHttpRequest();
 // si on voulait une compatibilité inter-navigateurs :
 //try
@@ -88,6 +94,8 @@ xhr.onreadystatechange  = function()
                     noeud_competence = document.createTextNode(texte_competence);
                     paragraphe_competence = document.createElement("p");
                     paragraphe_competence.appendChild(noeud_competence);
+                    // le style du paragraphe :
+                    paragraphe_competence.classList.add("marge_haute_reduite");
                     $('competences').appendChild(paragraphe_competence);
 
                     // pour récupérer le niveau max
@@ -102,6 +110,8 @@ xhr.onreadystatechange  = function()
                 var noeud_competence_max = document.createTextNode(texte_competence_max);
                 var paragraphe_competence_max = document.createElement("p");
                 paragraphe_competence_max.appendChild(noeud_competence_max);
+                // le style du paragraphe :
+                paragraphe_competence_max.classList.add("marge_basse_augmentee");
                 // syntaxe → node.insertBefore(newnode, existingchild);
                 $('competences').insertBefore(paragraphe_competence_max, $('competences').firstChild);
                
