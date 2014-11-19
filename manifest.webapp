@@ -1,0 +1,13 @@
+{
+  "name": "Ryzom app",
+  "description": "Application giving your character stats in the game Ryzom",
+  "version": "0.1",
+  "launch_path": "/index.html",
+  "developer": {
+      "name": "kimory",
+      "url": "https://github.com/kimory/ryzom_app" 
+  },
+  "icons": {
+      "128": "/img/atys.png"
+  }
+}

@@ -1,0 +1,424 @@
+SC	Artisanat		l'	Artisanat	des	les	Artisanat
+SM	Magie	une	la	Magie	des	les	Magie
+SMT	Magie d'Impact	une	la	Magies d'Impacts	des	les	Magie Ciblée
+SMTM	Magie de Missile	une	la	Magies de Missiles	des	les	Magie de Missile Ciblée
+SMTMR	Magie Fondamentale	une	la	Magies Fondamentales	des	les	Magie de Missile Ciblée - Fondamentale
+SMTMG	Magie Atysienne	une	la	Magies Atysiennes	des	les	Magie de Missile Ciblée - Atysienne
+SMTMB	Magie Céleste	une	la	Magies Célestes	des	les	Magie de Missile Ciblée - Céleste
+SMTO	Magie Offensive	une	la	Magies Offensives	des	les	Magie Offensive Ciblée
+SMTOD	Magie Physique	une	la	Magies Physiques	des	les	Magie Offensive Ciblée sur les Dégâts
+SMTODP	Magie Perforante	une	la	Magies Perforantes	des	les	Magie Offensive Ciblée sur les Dégâts - Perforante
+SMTODB	Magie Contondante	une	la	Magies Contondantes	des	les	Magie Offensive Ciblée sur les Dégâts - Contondant
+SMTODS	Magie Tranchante	une	la	Magies Tranchantes	des	les	Magie Offensive Ciblée sur les Dégâts - Tranchante
+SMTOE	Magie Elémentaire	une	la	Magies Elémentaires	des	les	Magie Offensive Ciblée sur les Dégâts Spéciaux
+SMTOEC	Magie du Froid	une	la	Magies du Froid	des	les	Magie Offensive Ciblée sur les Dégâts Spéciaux - Froid
+SMTOEA	Magie de l'Acide	une	la	Magies de l'Acide	des	les	Magie Offensive Ciblée sur les Dégâts Spéciaux - Acide
+SMTOER	Magie de la Pourriture	une	la	Magies de la Pourriture	des	les	Magie Offensive Ciblée sur les Dégâts Spéciaux - Pourriture
+SMTOEF	Magie du Feu	une	la	Magies du Feu	des	les	Magie Offensive Ciblée sur les Dégâts Spéciaux - Feu
+SMTOES	Magie des Ondes de Choc	une	la	Magies des Ondes de Choc	des	les	Magie Offensive Ciblée sur les Dégâts Spéciaux - Ondes de choc
+SMTOEP	Magie du Poison	une	la	Magies du Poison	des	les	Magie Offensive Ciblée sur les Dégâts Spéciaux - Poison
+SMTOEE	Magie Electrique	une	la	Magies Electriques	des	les	Magie Offensive Ciblée sur les Dégâts Spéciaux - Electricité
+SMTC	Magie Curative	une	la	Magies Curatives	des	les	Magie Curative Ciblée
+SMTCH	Magie de Guérison	une	la	Magies de Guérison	des	les	Magie Curative Ciblée sur la Guérison
+SMTCHP	Magie de Guérison de la Vie	une	la	Magies de Guérison de la Vie	des	les	Magie Curative Ciblée sur la Guérison - Vie
+SMTCHT	Magie de Guérison de la Sta	une	la	Magies de Guérison de la Sta	des	les	Magie Curative Ciblée sur la Guérison - Sta
+SMTCHA	Magie de Guérison de la Sève	une	la	Magies de Guérison de la Sève	des	les	Magie Curative Ciblée sur la Guérison - Sève
+SMTCHC	Magie de Guérison de la Concentration	une	la	Magies de Guérison de la Concentration	des	les	Magie Curative Ciblée sur la Guérison - Concentration
+SMTCB	Rupture de Lien	une	la	Ruptures de Liens	des	les	Magie Curative Ciblée sur la Rupture de Lien
+SMTCBD	Dégât de Rupture de Lien	un	le	Dégâts de Ruptures de Liens	des	les	Magie Curative Ciblée sur la Rupture de Lien - Dégâts
+SMTCBS	Maladie de Rupture de Lien	une	la	Maladies de Ruptures de Liens	des	les	Magie Curative Ciblée sur la Rupture de Lien - Maladie
+SMTCBC	Malédiction de Rupture de Lien	une	la	Malédictions de Ruptures de Liens	des	les	Magie Curative Ciblée sur la Rupture de Lien - Malédiction
+SML	Lien de Magie	un	le	Liens de Magies	des	les	Lien de Magie
+SMLM	Lien de Missile	un	le	Liens de Missiles	des	les	Lien de Magie relatif aux Missiles
+SMLMR	Lien Fondamental	un	le	Liens Fondamentaux	des	les	Lien de Magie relatif aux Missiles - Fondamental
+SMLMG	Lien Atysien	un	le	Liens Atysiens	des	les	Lien de Magie relatif aux Missiles - Atysien
+SMLMB	Lien Céleste	un	le	Liens Célestes	des	les	Lien de Magie relatif aux Missiles - Céleste
+SMLO	Lien Offensif	un	le	Liens Offensifs	des	les	Lien de Magie Offensive
+SMLOS	Lien de Maladie	un	le	Liens de Maladies	des	les	Lien de Magie Offensive relatif aux Maladies
+SMLOSM	Lien de Folie	un	le	Liens de Folie	des	les	Lien de Magie Offensive relatif aux Maladies - folie
+SMLOSS	Lien de Diminution de la Vitesse	un	le	Liens de Diminution de la Vitesse	des	les	Lien de Magie Offensive relatif aux Maladies - diminution de la vitesse
+SMLOSR	Lien de Diminution de la Résistance	un	le	Liens de Diminution de la Résistance	des	les	Lien de Magie Offensive relatif aux Maladies - diminution de la résistance
+SMLOSK	Lien de Diminution des Compétences	un	le	Liens de Diminution des Compétences	des	les	Lien de Magie Offensive relatif aux Maladies - diminution des compétences
+SMLOC	Lien de Malédiction	un	le	Liens de Malédictions	des	les	Lien de Magie Offensive relatif aux Malédictions
+SMLOCI	Lien d'Incapacité	un	le	Liens d'Incapacité	des	les	Lien de Magie Offensive relatif aux Malédictions - incapacité
+SMLOCM	Lien de Perturbation Mentale	un	le	Liens de Perturbation Mentale	des	les	Lien de Magie Offensive relatif aux Malédictions - perturbation mentale
+SMLOCS	Lien de Malchance	un	le	Liens de Malchance	des	les	Lien de Magie Offensive relatif aux Malédictions - malchance
+SMLOCH	Lien de Haine	un	le	Liens de Haine	des	les	Lien de Magie Offensive relatif aux Malédictions - haine
+SMLOD	Lien Physique	un	le	Liens Physiques	des	les	Lien de Magie Offensive relatif aux Dégâts
+SMLODP	Lien Perforant	un	le	Liens Perforants	des	les	Lien de Magie Offensive relatif aux Dégâts - Perforant
+SMLODB	Lien Contondant	un	le	Liens Contondants	des	les	Lien de magie offensive relatif aux dégâts - contondant
+SMLODS	Lien Tranchant	un	le	Liens Tranchants	des	les	Lien de Magie Offensive relatif aux Dégâts - Tranchant
+SMLOE	Lien Elémentaire	un	le	Liens Elémentaires	des	les	Lien de Magie Offensive relatif aux Dégâts Spéciaux
+SMLOEC	Lien du Froid	un	le	Liens du Froid	des	les	Lien de Magie Offensive relatif aux Dégâts Spéciaux - Froid
+SMLOEA	Lien d'Acide	un	le	Liens d'Acide	des	les	Lien de Magie Offensive relatif aux Dégâts Spéciaux - Acide
+SMLOER	Lien de Pourriture	un	le	Liens de Pourriture	des	les	Lien de Magie Offensive relatif aux Dégâts Spéciaux - Pourriture
+SMLOEF	Lien de Feu	un	le	Liens de Feu	des	les	Lien de Magie Offensive relatif aux Dégâts Spéciaux - Feu
+SMLOES	Lien d'Ondes de Choc	un	le	Liens d'Ondes de Choc	des	les	Lien de Magie Offensive relatif aux Dégâts Spéciaux - Ondes de choc
+SMLOEP	Lien de Poison	un	le	Liens de Poison	des	les	Lien de Magie Offensive relatif aux Dégâts Spéciaux - Poison
+SMLOEE	Lien Electrique	un	le	Liens Electriques	des	les	Lien de Magie Offensive relatif aux Dégâts Spéciaux - Electricité
+SMLC	Lien Curatif	un	le	Liens Curatifs	des	les	Lien de Magie Curative
+SMLCH	Lien de Guérison	un	le	Liens de Guérison	des	les	Lien de Magie Curative relatif aux Guérisons
+SMLCHP	Lien de Guérison de la Vie	un	le	Liens de Guérison de la Vie	des	les	Lien de Magie Curative relatif aux Guérisons - Vie
+SMLCHT	Lien de Guérison de la Sta	un	le	Liens de Guérison de la Sta	des	les	Lien de Magie Curative relatif aux Guérisons - Sta
+SMLCHA	Lien de Guérison de la Sève	un	le	Liens de Guérison de la Sève	des	les	Lien de Magie Curative relatif aux Guérisons - Sève
+SMLCHC	Lien de Guérison de la Concentration	un	le	Liens de Guérison de la Concentration	des	les	Lien de Magie Curative relatif aux Guérisons - Concentration
+SMA	Magie Autonome	une	la	Magies Autonomes	des	les	Magie Autonome
+SMAE	Magie d'Enchantement	une	la	Magies d'Enchantements	des	les	Magie d'Enchantement
+SMAES	Enchantement de Sorts	un	l'	Magies d'Enchantements - Sorts	des	les	Magie d'Enchantement - Sort
+SMAEB	Enchantement Bonus	un	l'	Magies d'Enchantements - Bonus	des	les	Magie d'Enchantement - Bonus
+SMAP	Magie de Création de Potions	une	la	Magies de Fabrications de Potions	des	les	Magie de Fabrication de Potions
+SD	Auto-Défense	une	l'	Auto-Défenses	des	les	Auto-Défense
+SDA	Porter Armure			Porter Armure			Porter Armure
+SDAL	Porter Armure Légère			Porter Armure Légère			Porter Armure Légère
+SDALF	Porter Armure Légère Fyros			Porter Armure Légère Fyros			Porter Armure Légère Fyros
+SDALFA	Expert en Port d'Armure Légère Fyros	un	l'	Experts en Port d'Armure Légère Fyros	des	les	Expert en Port d'Armure Légère Fyros
+SDALFAE	Maître en Port d'Armure Légère Fyros	un	le	Maîtres en Port d'Armure Légère Fyros	des	les	Maître en Port d'Armure Légère Fyros
+SDALM	Porter Armure Légère Matis			Porter Armure Légère Matis			Porter Armure Légère Matis
+SDALMA	Expert en Port d'Armure Légère Matis	un	l'	Experts en Port d'Armure Légère Matis	des	les	Expert en Port d'Armure Légère Matis
+SDALMAE	Maître en Port d'Armure Légère Matis	un	le	Maîtres en Port d'Armure Légère Matis	des	les	Maître en Port d'Armure Légère Matis
+SDALT	Porter Armure Légère Tryker			Porter Armure Légère Tryker			Porter Armure Légère Tryker
+SDALTA	Expert en Port d'Armure Légère Tryker	un	l'	Experts en Port d'Armure Légère Tryker	des	les	Expert en Port d'Armure Légère Tryker
+SDALTAE	Maître en Port d'Armure Légère Tryker	un	le	Maîtres en Port d'Armure Légère Tryker	des	les	Maître en Port d'Armure Légère Tryker
+SDALZ	Porter Armure Légère Zoraï			Porter Armure Légère Zoraï			Porter Armure Légère Zoraï
+SDALZA	Expert en Port d'Armure Légère Zoraï	un	l'	Experts en Port d'Armure Légère Zoraï	des	les	Expert en Port d'Armure Légère Zoraï
+SDALZAE	Maître en Port d'Armure Légère Zoraï	un	le	Maîtres en Port d'Armure Légère Zoraï	des	les	Maître en Port d'Armure Légère Zoraï
+SDAM	Porter Armure Moyenne			Porter Armure Moyenne			Porter Armure Moyenne
+SDAMF	Porter Armure Moyenne Fyros			Porter Armure Moyenne Fyros			Porter Armure Moyenne Fyros
+SDAMFA	Expert en Port d'Armure Moyenne Fyros	un	l'	Experts en Port d'Armure Moyenne Fyros	des	les	Expert en Port d'Armure Moyenne Fyros
+SDAMFAE	Maître en Port d'Armure Moyenne Fyros	un	le	Maîtres en Port d'Armure Moyenne Fyros	des	les	Maître en Port d'Armure Moyenne Fyros
+SDAMM	Porter Armure Moyenne Matis			Porter Armure Moyenne Matis			Porter Armure Moyenne Matis
+SDAMMA	Expert en Port d'Armure Moyenne Matis	un	l'	Experts en Port d'Armure Moyenne Matis	des	les	Expert en Port d'Armure Moyenne Matis
+SDAMMAE	Maître en Port d'Armure Moyenne Matis	un	le	Maîtres en Port d'Armure Moyenne Matis	des	les	Maître en Port d'Armure Moyenne Matis
+SDAMT	Porter Armure Moyenne Tryker			Porter Armure Moyenne Tryker			Porter Armure Moyenne Tryker
+SDAMTA	Expert en Port d'Armure Moyenne Tryker	un	l'	Experts en Port d'Armure Moyenne Tryker	des	les	Expert en Port d'Armure Moyenne Tryker
+SDAMTAE	Maître en Port d'Armure Moyenne Tryker	un	le	Maîtres en Port d'Armure Moyenne Tryker	des	les	Maître en Port d'Armure Moyenne Tryker
+SDAMZ	Porter Armure Moyenne Zoraï			Porter Armure Moyenne Zoraï			Porter Armure Moyenne Zoraï
+SDAMZA	Expert en Port d'Armure Moyenne Zoraï	un	l'	Experts en Port d'Armure Moyenne Zoraï	des	les	Expert en Port d'Armure Moyenne Zoraï
+SDAMZAE	Maître en Port d'Armure Moyenne Zoraï	un	le	Maîtres en Port d'Armure Moyenne Zoraï	des	les	Maître en Port d'Armure Moyenne Zoraï
+SDAH	Porter Armure Lourde			Porter Armure Lourde			Porter Armure Lourde
+SDAHF	Porter Armure Lourde Fyros			Porter Armure Lourde Fyros			Porter Armure Lourde Fyros
+SDAHFA	Expert en Port d'Armure Lourde Fyros	un	l'	Experts en Port d'Armure Lourde Fyros	des	les	Expert en Port d'Armure Lourde Fyros
+SDAHFAE	Maître en Port d'Armure Lourde Fyros	un	le	Maîtres en Port d'Armure Lourde Fyros	des	les	Maître en Port d'Armure Lourde Fyros
+SDAHM	Porter Armure Lourde Matis			Porter Armure Lourde Matis			Porter Armure Lourde Matis
+SDAHMA	Expert en Port d'Armure Lourde Matis	un	l'	Experts en Port d'Armure Lourde Matis	des	les	Expert en Port d'Armure Lourde Matis
+SDAHMAE	Maître en Port d'Armure Lourde Matis	un	le	Maîtres en Port d'Armure Lourde Matis	des	les	Maître en Port d'Armure Lourde Matis
+SDAHT	Porter Armure Lourde Tryker			Porter Armure Lourde Tryker			Porter Armure Lourde Tryker
+SDAHTA	Expert en Port d'Armure Lourde Tryker	un	l'	Experts en Port d'Armure Lourde Tryker	des	les	Expert en Port d'Armure Lourde Tryker
+SDAHTAE	Maître en Port d'Armure Lourde Tryker	un	le	Maîtres en Port d'Armure Lourde Tryker	des	les	Maître en Port d'Armure Lourde Tryker
+SDAHZ	Porter Armure Lourde Zoraï			Porter Armure Lourde Zoraï			Porter Armure Lourde Zoraï
+SDAHZA	Expert en Port d'Armure Lourde Zoraï	un	l'	Experts en Port d'Armure Lourde Zoraï	des	les	Expert en Port d'Armure Lourde Zoraï
+SDAHZAE	Maître en Port d'Armure Lourde Zoraï	un	le	Maîtres en Port d'Armure Lourde Zoraï	des	les	Maître en Port d'Armure Lourde Zoraï
+SDS	Manier Boucliers			Manier Boucliers			Manier Boucliers
+SDSB	Manier Rondache			Manier Rondache			Manier Rondache
+SDSBF	Manier Rondache Fyros			Manier Rondache Fyros			Manier Rondache Fyros
+SDSBFA	Expert en Maniement de Rondache Fyros	un	l'	Experts en Maniement de Rondache Fyros	des	les	Expert en Maniement de Rondache Fyros
+SDSBFAE	Maître en Maniement de Rondache Fyros	un	le	Maîtres en Maniement de Rondache Fyros	des	les	Maître en Maniement de Rondache Fyros
+SDSBM	Manier Rondache Matis			Manier Rondache Matis			Manier Rondache Matis
+SDSBMA	Expert en Maniement de Rondache Matis	un	l'	Experts en Maniement de Rondache Matis	des	les	Expert en Maniement de Rondache Matis
+SDSBMAE	Maître en Maniement de Rondache Matis	un	le	Maîtres en Maniement de Rondache Matis	des	les	Maître en Maniement de Rondache Matis
+SDSBT	Manier Rondache Tryker			Manier Rondache Tryker			Manier Rondache Tryker
+SDSBTA	Expert en Maniement de Rondache Tryker	un	l'	Experts en Maniement de Rondache Tryker	des	les	Expert en Maniement de Rondache Tryker
+SDSBTAE	Maître en Maniement de Rondache Tryker	un	le	Maîtres en Maniement de Rondache Tryker	des	les	Maître en Maniement de Rondache Tryker
+SDSBZ	Manier Rondache Zoraï			Manier Rondache Zoraï			Manier Rondache Zoraï
+SDSBZA	Expert en Maniement de Rondache Zoraï	un	l'	Experts en Maniement de Rondache Zoraï	des	les	Expert en Maniement de Rondache Zoraï
+SDSBZAE	Maître en Maniement de Rondache Zoraï	un	le	Maîtres en Maniement de Rondache Zoraï	des	les	Maître en Maniement de Rondache Zoraï
+SDSS	Manier Grand Bouclier			Manier Grands Bouclier			Manier Grands Bouclier
+SDSSF	Manier Grand Bouclier Fyros			Manier Grands Bouclier Fyros			Manier Grands Bouclier Fyros
+SDSSFA	Expert en Maniement de Grand Bouclier Fyros	un	l'	Experts en Maniement de Grands Bouclier Fyros	des	les	Expert en Maniement de Grands Bouclier Fyros
+SDSSFAE	Maître en Maniement de Grand Bouclier Fyros	un	le	Maîtres en Maniement de Grands Bouclier Fyros	des	les	Maître en Maniement de Grands Bouclier Fyros
+SDSSM	Manier Grand Bouclier Matis			Manier Grands Bouclier Matis			Manier Grands Bouclier Matis
+SDSSMA	Expert en Maniement de Grand Bouclier Matis	un	l'	Experts en Maniement de Grands Bouclier Matis	des	les	Expert en Maniement de Grands Bouclier Matis
+SDSSMAE	Maître en Maniement de Grand Bouclier Matis	un	le	Maîtres en Maniement de Grands Bouclier Matis	des	les	Maître en Maniement de Grands Bouclier Matis
+SDSST	Manier Grand Bouclier Tryker			Manier Grands Bouclier Tryker			Manier Grands Bouclier Tryker
+SDSSTA	Expert en Maniement de Grand Bouclier Tryker	un	l'	Experts en Maniement de Grands Bouclier Tryker	des	les	Expert en Maniement de Grands Bouclier Tryker
+SDSSTAE	Maître en Maniement de Grand Bouclier Tryker	un	le	Maîtres en Maniement de Grands Bouclier Tryker	des	les	Maître en Maniement de Grands Bouclier Tryker
+SDSSZ	Manier Grand Bouclier Zoraï			Manier Grands Bouclier Zoraï			Manier Grands Bouclier Zoraï
+SDSSZA	Expert en Maniement de Grand Bouclier Zoraï	un	l'	Experts en Maniement de Grands Bouclier Zoraï	des	les	Expert en Maniement de Grands Bouclier Zoraï
+SDSSZAE	Maître en Maniement de Grand Bouclier Zoraï	un	le	Maîtres en Maniement de Grands Bouclier Zoraï	des	les	Maître en Maniement de Grands Bouclier Zoraï
+SDD	Esquive	une	l'	Esquives	des	les	Esquive
+SDDA	Esquive Rapide	une	l'	Esquives Rapides	des	les	Esquive Rapide
+SDDAT	Esquive Instinctive	une	l'	Esquives Instinctives	des	les	Esquive Instinctive
+SDDATM	Expert en Esquive	une	l'	Experts en Esquive	des	les	Expert en Esquive
+SDDATME	Maître en Esquive	une	l'	Maîtres en Esquive	des	les	Maître en Esquive
+uknown	Compétence Inconnue			Compétences Inconnues			Compétence Inconnue
+Unknown	Compétence Inconnue			Compétences Inconnues			Compétence Inconnue
+SH	Extraire les Matières Premières			Extraire les Matières Premières			Extraire les Matières Premières
+SHF	Prospection	une	la	Prospections	des	les	
+SHFF	Prospection Forestière	une	la	Prospections Forestières	des	les	
+SHFFA	Initié en Prospection Forestière	un	l'	Initiés en Prospection Forestière	des	les	
+SHFFAE	Expert en Prospection Forestière	un	l'	Experts en Prospection Forestière	des	les	
+SHFFAEM	Maître en Prospection Forestière	un	le	Maîtres en Prospection Forestière	des	les	
+SHFD	Prospection Désertique	une	la	Prospections Désertiques	des	les	
+SHFDA	Initié en Prospection Désertique	un	l'	Initiés en Prospection Désertique	des	les	
+SHFDAE	Expert en Prospection Désertique	un	l'	Experts en Prospection Désertique	des	les	
+SHFDAEM	Maître en Prospection Désertique	un	le	Maîtres en Prospection Désertique	des	les	
+SHFJ	Prospection Jungle	une	la	Prospections	des	les	
+SHFJA	Initié en Prospection de la Jungle	un	l'	Initiés en Prospection de la Jungle	des	les	
+SHFJAE	Expert en Prospection de la Jungle	un	l'	Experts en Prospection de la Jungle	des	les	
+SHFJAEM	Maître en Prospection de la Jungle 	un	le	Maîtres en Prospection de la Jungle 	des	les	
+SHFL	Prospection Lacustre	une	la	Prospections Lacustres	des	les	
+SHFLA	Initié en Prospection Lacustre	un	l'	Initiés en Prospection Lacustre	des	les	
+SHFLAE	Expert en Prospection Lacustre	un	l'	Experts en Prospection Lacustre	des	les	
+SHFLAEM	Maître en Prospection Lacustre	un	le	Maîtres en Prospection Lacustre	des	les	
+SHFP	Prospection des Primes Racines	une	la	Prospections des Primes Racines	des	les	
+SHFPA	Initié en Prospection des Primes Racines	un	l'	Initiés en Prospection des Primes Racines	des	les	
+SHFPAE	Expert en Prospection des Primes Racines	un	l'	Experts en Prospection des Primes Racines	des	les	
+SHFPAEM	Maître en Prospection des Primes Racines	un	le	Maîtres en Prospection des Primes Racines	des	les	
+SMTOECA	Initié en Magie du Froid	un	l'	Initiés en Magie du Froid	des	les	Magie offensive avancée ciblée sur les dégâts spéciaux - Froid
+SMTOEAA	Initié en Magie d'Acide	un	l'	Initiés en Magie d'Acide	des	les	Magie offensive avancée ciblée sur les dégâts spéciaux - Acide
+SMTOERA	Initié en Magie de la Pourriture	un	l'	Initiés en Magie de la Pourriture	des	les	Magie offensive avancée ciblée sur les dégâts spéciaux - Pourriture
+SMTOEFA	Initié en Magie du Feu	un	l'	Initiés en Magie du Feu	des	les	Magie offensive avancée ciblée sur les dégâts spéciaux - Feu
+SMTOESA	Initié en Magie des Ondes de Choc	un	l'	Initiés en Magie des Ondes de Choc	des	les	Magie offensive avancée ciblée sur les dégâts spéciaux - Onde de Choc
+SMTOEPA	Initié en Magie du Poison	un	l'	Initiés en Magie du Poison	des	les	Magie offensive avancée ciblée sur les dégâts spéciaux - Poison
+SMTOEEA	Initié en Magie Electrique	un	l'	Initiés en Magie Electrique	des	les	Magie offensive avancée ciblée sur les dégâts spéciaux - Electricité
+SMTCHPA	Initié en Magie de Guérison Vie	un	l'	Initiés en Magie de Guérison Vie	des	les	Magie Curative Avancée Ciblée sur la Guérison - Vie
+SMTCHTA	Initié en Magie de Guérison Sta	un	l'	Initiés en Magie de Guérison Sta	des	les	Magie Curative Avancée Ciblée sur la Guérison - Sta
+SMTCHAA	Initié en Magie de Guérison Sève	un	l'	Initiés en Magie de Guérison Sève	des	les	Magie Curative Avancée Ciblée sur la Guérison - Sève
+SMTCHCA	Initié en Magie de Guérison Concentration	un	l'	Initiés en Magie de Guérison Concentration	des	les	Magie curative avancée ciblée sur la guérison - Concentration
+SMLOSMA	Initié en Lien de Folie	un	l'	Initiés en Lien de Folie	des	les	Lien avancé de magie offensive relatif aux maladies - Folie
+SMLOSSA	Initié en Lien de Diminution de la Vitesse	un	l'	Initiés en Lien de Diminution de la Vitesse	des	les	Lien avancé de magie offensive relatif aux maladies - Diminution de la Vitesse
+SMLOCIA	Initié en Lien d'Incapacité	un	l'	Initiés en Lien d'Incapacité	des	les	Lien avancé de magie offensive relatif aux malédictions - Incapacité
+SMLOCSA	Initié en Lien de Malchance	un	l'	Initiés en Lien de Malchance	des	les	Lien avancé de magie offensive relatif aux malédictions - Malchance
+SMLOECA	Initié en Lien du Froid	un	l'	Initiés en Lien du Froid	des	les	Lien avancé de magie offensive relatif aux dégâts spéciaux - Froid
+SMLOEAA	Initié en Lien d'Acide	un	l'	Initiés en Lien d'Acide	des	les	Lien avancé de magie offensive relatif aux dégâts spéciaux - Acide
+SMLOERA	Initié en Lien de Pourriture	un	l'	Initiés en Lien de Pourriture	des	les	Lien avancé de magie offensive relatif aux dégâts spéciaux - Pourriture
+SMLOEFA	Initié en Lien de Feu	un	l'	Initiés en Lien de Feu	des	les	Lien avancé de magie offensive relatif aux dégâts spéciaux - Feu
+SMLOESA	Initié en Lien d'Ondes de Choc	un	l'	Initiés en Lien d'Ondes de Choc	des	les	Lien avancé de magie offensive relatif aux dégâts spéciaux - Ondes de Choc
+SMLOEPA	Initié en Lien de Poison	un	l	Initiés en Lien de Poison	des	les	Lien avancé de magie offensive relatif aux dégâts spéciaux - Poison
+SMLOEEA	Initié en Lien électrique	un	l'	Initiés en Lien électrique	des	les	Lien avancé de magie offensive relatif aux dégâts spéciaux - Electricité
+SMD	Magie Salvatrice	une	la	Magies Salvatrices	des	les	Magie Salvatrice
+SMDA	Magie Neutralisante	une	la	Magies Neutralisantes	des	les	Magie Neutralisante
+SMDAA	Initié en Magie Neutralisante	un	l'	Initiés en Magie Neutralisante	des	les	Initié en Magie Neutralisante
+SMDAAE	Expert en Magie Neutralisante	un	l'	Experts en Magie Neutralisante	des	les	Expert en Magie Neutralisante
+SMDAAEM	Maître en Magie Neutralisante	un	le	Maîtres en Magie Neutralisante	des	les	Maître en Magie Neutralisante
+SMDH	Magie Curative	une	la	Magies Curatives	des	les	Magie Curative
+SMDHA	Initié en Magie Curative	un	l'	Initiés en Magie Curative	des	les	Initié en Magie Curative
+SMDHAE	Expert en Magie Curative	un	l'	Experts en Magie Curative	des	les	Expert en Magie Curative
+SMDHAEM	Maître en Magie Curative	un	le	Maîtres en Magie Curative	des	les	Maître en Magie Curative
+SMO	Magie Destructrice	une	la	Magies Destructrices	des	les	Magie Destructrice
+SMOA	Magie Débilitante	une	la	Magies Débilitantes	des	les	Magie Débilitante
+SMOAA	Initié en Magie Débilitante	un	l'	Initiés en Magie Débilitante	des	les	Initié en Magie Débilitante
+SMOAAE	Expert en Magie Débilitante	un	l'	Experts en Magie Débilitante	des	les	Expert en Magie Débilitante
+SMOAAEM	Maître en Magie Débilitante	un	le	Maîtres en Magie Débilitante	des	les	Maître en Magie Débilitante
+SMOE	Magie Elémentaire	une	la	Magies Elémentaires	des	les	Magie Elémentaire
+SMOEA	Initié en Magie Elémentaire	un	l'	Initiés en Magie Elémentaire	des	les	Initié en Magie Elémentaire
+SMOEAE	Expert en Magie Elémentaire	un	l'	Experts en Magie Elémentaire	des	les	Expert en Magie Elémentaire
+SMOEAEM	Maître en Magie Elémentaire	un	le	Maîtres en Magie Elémentaire	des	les	Maître en Magie Elémentaire
+SMS	Magie sur Soi	une	la	Magies sur Soi	des	les	Magie sur Soi
+SMSS	Magie sur Soi Instinctive	une	la	Magies sur Soi Instinctive	des	les	Magie sur Soi Instinctive
+SMSSA	Initié en Magie sur Soi	un	l'	Initiés en Magie sur Soi	des	les	Initié en Magie sur Soi
+SMSSAE	Expert en Magie sur Soi	un	l'	Experts en Magie sur Soi	des	les	Expert en Magie sur Soi
+SMSSAEM	Maître en Magie sur Soi	un	le	Maîtres en Magie sur Soi	des	les	Maître en Magie sur Soi
+SF	Combat	un	le	Combats	des	les	
+SFM	Mêlée	une	la	Mêlées	des	les	
+SFM1	Manier Armes à une Main			Manier Armes à une Main			
+SFM1B	Manier Armes à une Main Contondantes			Manier Armes à une Main Contondantes			
+SFM1BM	Manier Massue			Manier Massue			
+SFM1BME	Manier Massue Electrique			Manier Massues Electriques			
+SFM1BMM	Maître en Maniement des Massues			Maîtres en Maniement des Massues	des	les	
+SFM1BS	Manier Bâton			Manier Bâtons			
+SFM1BSM	Maître en Maniement des Bâtons	un	le	Maîtres en Maniement des Bâtons	des	les	
+SFM1P	Manier Armes à une Main Perforantes			Manier Armes à une Main Perforantes			
+SFM1PS	Manier Lance			Manier Lances			
+SFM1PSE	Manier Lance Electrique			Manier Lances Electriques			
+SFM1PSL	Manier Lance Vivante			Manier Lances Vivantes			
+SFM1PSM	Maître en Maniement des Lances	un	le	Maîtres en Maniement des Lances	des	les	
+SFM1S	Manier Armes à une Main Tranchantes			Manier Armes à une Main Tranchantes			
+SFM1SA	Manier Hache			Manier Haches			
+SFM1SAB	Manier Hache Ardente			Manier Haches Ardentes			
+SFM1SAM	Maître en Maniement des Haches	un	le	Maîtres en Maniement des Haches	des	les	
+SFM1SS	Manier Epée			Manier Epées			
+SFM1SSM	Maître en Maniement des Epées	un	le	Maîtres en Maniement des Epées	des	les	
+SFM1SSW	Manier Epée Ondulante			Manier Epées Ondulantes			
+SFM2	Manier Armes à deux Mains			Manier Armes à deux Mains			
+SFM2B	Manier Armes à deux Mains Contondantes			Manier Armes à deux Mains Contondantes			
+SFM2BM	Manier Massue à deux Mains			Manier Massues à deux Mains			
+SFM2BME	Manier Massue à deux Mains Electrique 			Manier Massues à deux Mains Electriques			
+SFM2BMM	Maître en Maniement des Massues à deux Mains	un	le	Maîtres en Maniement des Massues à deux Mains	des	les	
+SFM2P	Manier Armes à deux Mains Perforantes			Manier Armes à deux Mains Perforantes			
+SFM2PP	Manier Pique			Manier Piques			
+SFM2PPL	Manier Pique Vivante			Manier Piques Vivantes			
+SFM2PPM	Maître en Maniement de la Pique	un	le	Maîtres en Maniement de la Pique	des	les	
+SFM2S	Manier Armes à deux Mains Tranchantes			Manier Armes à deux Mains Tranchantes			
+SFM2SA	Manier Hache à deux Mains			Manier Haches à deux Mains			
+SFM2SAB	Manier Hache Ardente à deux Mains			Manier Haches Ardentes à deux Mains			
+SFM2SAM	Maître en Maniement des Haches à deux Mains	un	le	Maître en Maniement des Haches à deux Mains	des	les	
+SFM2SS	Manier Epée à deux Mains			Manier Epées à deux Mains			
+SFM2SSB	Manier Epée à deux Mains Ardente			Manier Epées à deux Mains Ardentes			
+SFM2SSL	Manier Epée à deux Mains Vivante			Manier Epées à deux Mains Vivantes			
+SFM2SSM	Maître en Maniement des Epées à deux Mains	un	le	Maîtres en Maniement des Epées à deux Mains	des	les	
+SFM2SSW	Manier Epée à deux Mains Ondulante			Manier Epées à deux Mains Ondulantes			
+SFMC	Combat Rapproché	un	le	Combats Rapprochés	des	les	
+SFMCA	Initié en Combat Rapproché	un	l'	Initiés en Combat Rapproché	des	les	
+SFMCAD	Manier Dague			Manier Dagues			
+SFMCADL	Manier Dague Vivante			Manier Dagues Vivantes			
+SFMCADM	Maître en Maniement de la Dague	un	le	Maîtres en Maniement de la Dague	des	les	
+SFMCADW	Manier Dague Ondulante			Manier Dagues Ondulantes			
+SFMCAH	Expert en Combat à Mains Nues	un	l'	Experts en Combat à Mains Nues	des	les	
+SFMCAHM	Maître en Combat à Mains Nues	un	le	Maîtres en Combat à Mains Nues	des	les	
+SFR	Tir	un	le	Tirs	des	les	
+SFR1	Tir à une Main	un	le	Tirs à une Main	des	les	
+SFR1A	Initié au Tir à une Main	un	l'	Initiés au Tir à une Main	des	les	
+SFR1AB	Tir au Pistolet-Arbalète	un	le	Tir sau Pistolet-Arbalète	des	les	
+SFR1ABM	Maître en Tir au Pistolet-Arbalète	un	le	Maîtres en Tir au Pistolet-Arbalète	des	les	
+SFR1ABW	Tir au Pistolet-Arbalète Ondulant	un	le	Tirs au Pistolet-Arbalète Ondulant	des	les	
+SFR1AP	Tir au Pistolet	un	le	Tirs au Pistolet	des	les	
+SFR1APL	Tir au Pistolet Vivant	un	le	Tirs au Pistolet Vivant	des	les	
+SFR1APM	Maître en Tir au Pistolet 	un	le	Maîtres en Tir au Pistolet 	des	les	
+SFR2	Tir à deux Mains	un	le	Tirs à deux Mains	des	les	
+SFR2A	Initié au Tir à deux Mains	un	l'	Initiés au Tir à deux Mains	des	les	
+SFR2AA	Tir à la Mitrailleuse	un	le	Tirs à la Mitrailleuse	des	les	
+SFR2AAB	Tir à la Mitrailleuse Ardente	un	le	Tirs à la Mitrailleuse Ardente	des	les	
+SFR2AAM	Maître en Tir à la Mitrailleuse	un	le	Maîtres en Tir à la Mitrailleuse	des	les	
+SFR2AB	Tir au Fusil-Arbalète	un	le	Tirs au Fusil-Arbalète	des	les	
+SFR2ABE	Tir au Fusil-Arbalète Electrique	un	le	Tirs au Fusil-Arbalète Electrique	des	les	
+SFR2ABM	Maître en Tir au Fusil-Arbalète	un	le	Maîtres en Tir au Fusil-Arbalète	des	les	
+SFR2AL	Tir au Lance-Grenades	un	le	Tirs au Lance-Grenades	des	les	
+SFR2ALB	Tir au Lance-Grenades Ardent	un	le	Tirs au Lance-Grenades Ardent	des	les	
+SFR2ALE	Tir au Lance-Grenades Electrique	un	le	Tirs au Lance-Grenades Electrique	des	les	
+SFR2ALM	Maître en Tir au Lance-Grenades	un	le	Maîtres en Tir au Lance-Grenades	des	les	
+SFR2AR	Tir au Fusil	un	le	Tirs au Fusil	des	les	
+SFR2ARL	Tir au Fusil Vivant	un	le	Tirs au Fusil Vivant	des	les	
+SFR2ARM	Maître en Tir au Fusil 	un	le	Maîtres en Tir au Fusil 	des	les	
+SCA	Créer Armure			Créer Armure			Créer Armure
+SCJ	Créer Bijou			Créer Bijou			Créer Bijou
+SCM	Créer Arme de Mêlée			Créer Arme de Mêlée			Créer Arme de Mêlée
+SCR	Créer Arme de Tir			Créer Arme de Tir			Créer Arme de Tir
+SCAH	Créer Armure Lourde			Créer Armure Lourde			Créer Armure Lourde
+SCAL	Créer Armure Légère			Créer Armure Légère			Créer Armure Légère
+SCAM	Créer Armure Moyenne			Créer Armure Moyenne			Créer Armure Moyenne
+SCAS	Créer Bouclier			Créer Bouclier			Créer Bouclier
+SCJA	Créer Anneau de Cheville			Créer Anneau de Cheville			Créer Anneau de Cheville
+SCJB	Créer Bracelet			Créer Bracelet			Créer Bracelet
+SCJD	Créer Diadème			Créer Diadème			Créer Diadème
+SCJE	Créer Boucle d'Oreille			Créer Boucle d'Oreille			Créer Boucle d'Oreille
+SCJP	Créer Pendentif			Créer Pendentif			Créer Pendentif
+SCJR	Créer Bague			Créer Bague			Créer Bague
+SCM1	Créer Arme de Mêlée à une Main			Créer Arme de Mêlée à une Main			Créer Arme de Mêlée à une Main
+SCM2	Créer Arme de Mêlée à deux Mains			Créer Arme de Mêlée à deux Mains			Créer Arme de Mêlée à deux Mains
+SCR1	Créer Arme de Tir à une Main			Créer Arme de Tir à une Main			Créer Arme de Tir à une Main
+SCR2	Créer Arme de Tir à deux Mains			Créer Arme de Tir à deux Mains			Créer Arme de Tir à deux Mains
+SCAHB	Créer Bottes Lourdes			Créer Bottes Lourdes			Créer Bottes Lourdes
+SCAHG	Créer Gants Lourds			Créer Gants Lourds			Créer Gants Lourds
+SCAHH	Créer Casque Lourd			Créer Casque Lourd			Créer Casque Lourd
+SCAHP	Créer Pantalon Lourd			Créer Pantalon Lourd			Créer Pantalon Lourd
+SCAHS	Créer Manches Lourdes			Créer Manches Lourdes			Créer Manches Lourdes
+SCAHV	Créer Gilet Lourd			Créer Gilet Lourd			Créer Gilet Lourd
+SCALB	Créer Bottes Légères			Créer Bottes Légères			Créer Bottes Légères
+SCALG	Créer Gants Légers			Créer Gants Légers			Créer Gants Légers
+SCALP	Créer Pantalon Léger			Créer Pantalon Léger			Créer Pantalon Léger
+SCALS	Créer Manches Légères			Créer Manches Légères			Créer Manches Légères
+SCALV	Créer Gilet Léger			Créer Gilet Léger			Créer Gilet Léger
+SCAMB	Créer Bottes Moyennes			Créer Bottes Moyennes			Créer Bottes Moyennes
+SCAMG	Créer Gants Moyens			Créer Gants Moyens			Créer Gants Moyens
+SCAMP	Créer Pantalon Moyen			Créer Pantalon Moyen			Créer Pantalon Moyen
+SCAMS	Créer Manches Moyennes			Créer Manches Moyennes			Créer Manches Moyennes
+SCAMV	Créer Gilet Moyen			Créer Gilet Moyen			Créer Gilet Moyen
+SCASS	Créer Grand Bouclier			Créer Grand Bouclier			Créer Grand Bouclier
+SCASB	Créer Rondache			Créer Rondache			Créer Rondache
+SCJAA	Initié en Création d'Anneau de Cheville	un	l'	Initiés en Création d'Anneau de Cheville	des	les	Initié en Création d'Anneau de Cheville
+SCJBA	Initié en Création de Bracelet	un	l'	Initiés en Création de Bracelet	des	les	Initié en Création de Bracelet
+SCJDA	Initié en Création de Diadème	un	l'	Initiés en Création de Diadème	des	les	Initié en Création de Diadème
+SCJEA	Initié en Création de Boucle d'Oreille	un	l'	Initiés en Création de Boucle d'Oreille	des	les	Initié en Création de Boucle d'Oreille
+SCJPA	Initié en Création de Pendentif	un	l'	Initiés en Création de Pendentif	des	les	Initié en Création de Pendentif
+SCJRA	Initié en Création de Bague	un	l'	Initiés en Création de Bague	des	les	Initié en Création de Bague
+SCM1M	Créer Massue			Créer Massue			Créer Massue
+SCM1T	Créer Bâton			Créer Bâton			Créer Bâton
+SCM1P	Créer Lance			Créer Lance			Créer Lance
+SCM1A	Créer Hache			Créer Hache			Créer Hache
+SCM1S	Créer Epée			Créer Epée			Créer Epée
+SCM1D	Créer Dague			Créer Dague			Créer Dague
+SCM2M	Créer Massue à deux Mains			Créer Massue à deux Mains			Créer Massue à deux Mains
+SCM2P	Créer Pique			Créer Pique			Créer Pique
+SCM2A	Créer Hache à deux Mains			Créer Hache à deux Mains			Créer Hache à deux Mains
+SCM2S	Créer Epée à deux Mains			Créer Epéee à deux Mains			Créer Epéee à deux Mains
+SCR1B	Créer Pistolet-Arbalète			Créer Pistolet-Arbalète			Créer Pistolet-arbalète
+SCR1P	Créer Pistolet 			Créer Pistolet 			Créer Pistolet 
+SCR2A	Créer Mitrailleuse			Créer Mitrailleuse			Créer Mitrailleuse
+SCR2B	Créer Fusil-Arbalète			Créer Fusil-Arbalète			Créer Fusil-Arbalète
+SCR2L	Créer Lance-Grenades			Créer Lance-Grenades			Créer Lance-Grenades
+SCR2R	Créer Fusil 			Créer Fusil 			Créer Fusil 
+SCAHBE	Expert en Création de Bottes Lourdes	un	l'	Experts en Création de Bottes Lourdes	des	les	Expert en Création de Bottes Lourdes
+SCAHGE	Expert en Création de Gants Lourds	un	l'	Experts en Création de Gants Lourds	des	les	Expert en Création de Gants Lourds
+SCAHHE	Expert en Création de Casque Lourd	un	l'	Experts en Création de Casque Lourd	des	les	Expert en Création de Casque Lourd
+SCAHPE	Expert en Création de Pantalon Lourd	un	l'	Experts en Création de Pantalon Lourd	des	les	Expert en Création de Pantalon Lourd
+SCAHSE	Expert en Création de Manches Lourdes	un	l'	Experts en Création de Manches Lourdes	des	les	Expert en Création de Manches Lourdes
+SCAHVE	Expert en Création de Gilet Lourd	un	l'	Experts en Création de Gilet Lourd	des	les	Expert en Création de Gilet Lourd
+SCALBE	Expert en Création de Bottes Légères	un	l'	Experts en Création de Bottes Légères	des	les	Expert en Création de Bottes Légères
+SCALGE	Expert en Création de Gants Légers	un	l'	Experts en Création de Gants Légers	des	les	Expert en Création de Gants Légers
+SCALPE	Expert en Création de Pantalon Léger	un	l'	Experts en Création de Pantalon Léger	des	les	Expert en Création de Pantalon Léger
+SCALSE	Expert en Création de Manches Légères	un	l'	Experts en Création de Manches Légères	des	les	Expert en Création de Manches Légères
+SCALVE	Expert en Création de Gilet Léger	un	l'	Experts en Création de Gilet Léger	des	les	Expert en Création de Gilet Léger
+SCAMBE	Expert en Création de Bottes Moyennes	un	l'	Experts en Création de Bottes Moyennes	des	les	Expert en Création de Bottes Moyennes
+SCAMGE	Expert en Création de Gants Moyens	un	l'	Experts en Création de Gants Moyens	des	les	Expert en Création de Gants Moyens
+SCAMPE	Expert en Création de Pantalon Moyen	un	l'	Experts en Création de Pantalon Moyen	des	les	Expert en Création de Pantalon Moyen
+SCAMSE	Expert en Création de Manches Moyennes	un	l'	Experts en Création de Manches Moyennes	des	les	Expert en Création de Manches Moyennes
+SCAMVE	Expert en Création de Gilet Moyen	un	l'	Experts en Création de Gilet Moyen	des	les	Expert en Création de Gilet Moyen
+SCASSE	Expert en Création de Bouclier	un	l'	Experts en Création de Bouclier	des	les	Expert en Création de Bouclier
+SCASBE	Expert en Création de Rondache	un	l'	Experts en Création de Rondache	des	les	Expert en Création de Rondache
+SCJAAE	Expert en Création d'Anneau de Cheville	un	l'	Experts en Création d'Anneau de Cheville	des	les	Expert en Création d'Anneau de Cheville
+SCJBAE	Expert en Création de Bracelet	un	l'	Experts en Création de Bracelet	des	les	Expert en Création de Bracelet
+SCJDAE	Expert en Création de Diadème	un	l'	Experts en Création de Diadème	des	les	Expert en Création de Diadème
+SCJEAE	Expert en Création de Boucle d'Oreille	un	l'	Experts en Création de Boucle d'Oreille	des	les	Expert en Création de Boucle d'Oreille
+SCJPAE	Expert en Création de Pendentif	un	l'	Experts en Création de Pendentif	des	les	Expert en Création de Pendentif
+SCJRAE	Expert en Création de Bague	un	l'	Experts en Création de Bague	des	les	Expert en Création de Bague
+SCM1ME	Expert en Création de Massue	un	l'	Experts en Création de Massue	des	les	Expert en Création de Massue
+SCM1TE	Expert en Création de Bâton	un	l'	Experts en Création de Bâton	des	les	Expert en Création de Bâton
+SCM1PE	Expert en Création de Lance	un	l'	Experts en Création de Lance	des	les	Expert en Création de Lance
+SCM1AE	Expert en Création de Hache	un	l'	Experts en Création de Hache	des	les	Expert en Création de Hache
+SCM1SE	Expert en Création d'Epée	un	l'	Experts en Création d'Epée	des	les	Expert en Création d'Epée
+SCM1DE	Expert en Création de Dague	un	l'	Experts en Création de Dague	des	les	Expert en Création de Dague
+SCM2ME	Expert en Création de Massue à deux Mains	un	l'	Experts en Création de Massue à deux Mains	des	les	Expert en Création de Massue à deux Mains
+SCM2PE	Expert en Création de Pique	un	l'	Experts en Création de Pique	des	les	Expert en Création de Pique
+SCM2AE	Expert en Création de Hache à deux Mains	un	l'	Experts en Création de Hache à deux Mains	des	les	Expert en Création de Hache à deux Mains
+SCM2SE	Expert en Création d'Epée en deux Mains	un	l'	Experts en Création d'Epée en deux Mains	des	les	Expert en Création d'Epée en deux Mains
+SCR1BE	Expert en Création de Pistolet-Arbalète	un	l'	Experts en Création de Pistolet-Arbalète	des	les	Expert en Création de Pistolet-Arbalète
+SCR1PE	Expert en Création de Pistolet	un	l'	Experts en Création de Pistolet	des	les	Expert en Création de Pistolet
+SCR2AE	Expert en Création de Mitrailleuse	un	l'	Experts en Création de Mitrailleuse	des	les	Expert en Création de Mitrailleuse
+SCR2BE	Expert en Création de Fusil-Arbalète 	un	l'	Experts en Création de Fusil-Arbalète 	des	les	Expert en Création de Fusil-Arbalète 
+SCR2LE	Expert en Création de Lance-Grenades	un	l'	Experts en Création de Lance-Grenades	des	les	Expert en Création de Lance-Grenades
+SCR2RE	Expert en Création de Fusil 	un	l'	Experts en Création de Fusil 	des	les	Expert en Création de Fusil 
+SCAHBEM	Maître en Création de Bottes Lourdes	un	le	Maîtres en Création de Bottes Lourdes	des	les	Maître en Création de Bottes Lourdes
+SCAHGEM	Maître en Création de Gants Lourds	un	le	Maîtres en Création de Gants Lourds	des	les	Maître en Création de Gants Lourds
+SCAHHEM	Maître en Création de Casque Lourd	un	le	Maîtres en Création de Casque Lourd	des	les	Maître en Création de Casque Lourd
+SCAHPEM	Maître en Création de Pantalon Lourd	un	le	Maîtres en Création de Pantalon Lourd	des	les	Maître en Création de Pantalon Lourd
+SCAHSEM	Maître en Création de Manches Lourdes	un	le	Maîtres en Création de Manches Lourdes	des	les	Maître en Création de Manches Lourdes
+SCAHVEM	Maître en Création de Gilet Lourd	un	le	Maîtres en Création de Gilet Lourd	des	les	Maître en Création de Gilet Lourd
+SCALBEM	Maître en Création de Bottes Légères	un	le	Maîtres en Création de Bottes Légères	des	les	Maître en Création de Bottes Légères
+SCALGEM	Maître en Création de Gants Légers	un	le	Maîtres en Création de Gants Légers	des	les	Maître en Création de Gants Légers
+SCALPEM	Maître en Création de Pantalon Léger	un	le	Maîtres en Création de Pantalon Léger	des	les	Maître en Création de Pantalon Léger
+SCALSEM	Maître en Création de manches Légères	un	le	Maîtres en Création de manches Légères	des	les	Maître en Création de manches Légères
+SCALVEM	Maître en Création de Gilet Léger	un	le	Maîtres en Création de Gilet Léger	des	les	Maître en Création de Gilet Léger
+SCAMBEM	Maître en Création de Bottes Moyennes	un	le	Maîtres en Création de Bottes Moyennes	des	les	Maître en Création de Bottes Moyennes
+SCAMGEM	Maître en Création de Gants Moyens	un	le	Maîtres en Création de Gants Moyens	des	les	Maître en Création de Gants Moyens
+SCAMPEM	Maître en Création de Pantalon Moyens	un	le	Maîtres en Création de Pantalon Moyens	des	les	Maître en Création de Pantalon Moyens
+SCAMSEM	Maître en Création de Manches Moyennes	un	le	Maîtres en Création de Manches Moyennes	des	les	Maître en Création de Manches Moyennes
+SCAMVEM	Maître en Création de Gilet Moyen	un	le	Maîtres en Création de Gilet Moyen	des	les	Maître en Création de Gilet Moyen
+SCASSEM	Maître en Création de Bouclier	un	le	Maîtres en Création de Bouclier	des	les	Maître en Création de Bouclier
+SCASBEM	Maître en Création de Rondache	un	le	Maîtres en Création de Rondache	des	les	Maître en Création de Rondache
+SCJAAEM	Maître en Création d'Anneau de Cheville	un	le	Maîtres en Création d'Anneau de Cheville	des	les	Maître en Création d'Anneau de Cheville
+SCJBAEM	Maître en Création de Bracelet	un	le	Maîtres en Création de Bracelet	des	les	Maître en Création de Bracelet
+SCJDAEM	Maître en Création de Diadème	un	le	Maîtres en Création de Diadème	des	les	Maître en Création de Diadème
+SCJEAEM	Maître en Création de Boucle d'Oreille	un	le	Maîtres en Création de Boucle d'Oreille	des	les	Maître en Création de Boucle d'Oreille
+SCJPAEM	Maître en Création de Pendentif	un	le	Maîtres en Création de Pendentif	des	les	Maître en Création de Pendentif
+SCJRAEM	Maître en Création de Bague	un	le	Maîtres en Création de Bague	des	les	Maître en Création de Bague
+SCM1MEM	Maître en Création de Massue	un	le	Maîtres en Création de Massue	des	les	Maître en Création de Massue
+SCM1TEM	Maître en Création de Bâton	un	le	Maîtres en Création de Bâton	des	les	Maître en Création de Bâton
+SCM1PEM	Maître en Création de Lance	un	le	Maîtres en Création de Lance	des	les	Maître en Création de Lance
+SCM1AEM	Maître en Création de Hache	un	le	Maîtres en Création de Hache	des	les	Maître en Création de Hache
+SCM1SEM	Maître en Création d'Epée	un	le	Maîtres en Création d'Epée	des	les	Maître en Création d'Epée
+SCM1DEM	Maître en Création de Dague	un	le	Maîtres en Création de Dague	des	les	Maître en Création de Dague
+SCM2MEM	Maître en Création de Massue à deux Mains	un	le	Maîtres en Création de Massue à deux Mains	des	les	Maître en Création de Massue à deux Mains
+SCM2PEM	Maître en Création de Pique	un	le	Maîtres en Création de Pique	des	les	Maître en Création de Pique
+SCM2AEM	Maître en Création de Hache à deux Mains	un	le	Maîtres en Création de Hache à deux Mains	des	les	Maître en Création de Hache à deux Mains
+SCM2SEM	Maître en Création d'Epée en deux Mains	un	le	Maîtres en Création d'Epée en deux Mains	des	les	Maître en Création d'Epée en deux Mains
+SCR1BEM	Maître en Création de Pistolet-Arbalète	un	le	Maîtres en Création de Pistolet-Arbalète	des	les	Maître en Création de Pistolet-Arbalète
+SCR1PEM	Maître en Création de Pistolet	un	le	Maîtres en Création de Pistolet	des	les	Maître en Création de Pistolet
+SCR2AEM	Maître en Création de Mitrailleuse	un	le	Maîtres en Création de Mitrailleuse	des	les	Maître en Création de Mitrailleuse
+SCR2BEM	Maître en Création de Fusil-Arbalète 	un	le	Maîtres en Création de Fusil-Arbalète 	des	les	Maître en Création de Fusil-Arbalète 
+SCR2LEM	Maître en Création de Lance-Grenades	un	le	Maîtres en Création de Lance-Grenades	des	les	Maître en Création de Lance-Grenades
+SCR2REM	Maître en Création de Fusil 	un	le	Maîtres en Création de Fusil 	des	les	Maître en Création de Fusil 
+SCMC	Créer Armes de Combat Rapproché			Créer Armes de Combat Rapproché			Créer Armes de Combat Rapproché
+SCMCA	Initié en Création d'Armes de Combat Rapproché	un	l'	Initiés en Création d'Armes de Combat Rapproché	des	les	Initié en Création d'Armes de Combat Rapproché
+SCMCAE	Expert en Création d'Armes de Combat Rapproché	un	l'	Experts en Création d'Armes de Combat Rapproché	des	les	Expert en Création d'Armes de Combat Rapproché
+SCMCAEM	Maître en Création d'Armes de Combat Rapproché	un	le	Maîtres en Création d'Armes de Combat Rapproché	des	les	Maître en Création d'Armes de Combat Rapproché
