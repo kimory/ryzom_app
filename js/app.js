@@ -92,7 +92,7 @@ xhr.onreadystatechange  = function()
                     niveau_tronque = Math.floor(niveau); // valeur numérique du niveau tronquée
                     // on récupère le chiffre après la virgule pour obtenir le pourcentage d'avancement vers le niveau suivant
                     // on multiplie par 100 chacune des valeurs _au sein du calcul_, car le calcul sur des valeurs décimales est mal géré par JS...
-                    prochain_niveau = (niveau*100 - niveau_tronque*100);
+                    prochain_niveau = Math.floor(niveau*100 - niveau_tronque*100); // Math.floor pour gérer les qqs cas où il y a des longues décimales
 
                     // inscription dans la page des infos sur les compétences
                     texte_competence = nom_competence + ' : ' + niveau_tronque + ' (' + prochain_niveau + ' %)';

@@ -71,14 +71,17 @@ body{
     font-weight:bold;
 }
 
-/* marge haute réduite */
-.marge_haute_reduite{
-    margin-top : -5%;
-}
-
-/* marge basse plus grande */
-.marge_basse_augmentee{
+/* si l'orientation est en portrait */
+@media (orientation: portrait) {
+    /* marge haute réduite */
+    .marge_haute_reduite{
+        margin-top : -5%;
+    }
+    
+    /* marge basse plus grande */
+    .marge_basse_augmentee{
     margin-bottom : 10%;
+    }
 }
 
 /* ce qui n'est (au départ) pas visible */
