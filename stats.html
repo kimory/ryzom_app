@@ -19,21 +19,33 @@
         <p id="lien_caracteristiques" class="btn" onclick="afficher('contenu_caracteristiques');">Caractéristiques</p>
         
         <div id="contenu_caracteristiques" class="invisible marge_haute_reduite">
-            <p>Vie<br>
-            Constitution : <span id="constitution"></span><br>
-            Métabolisme : <span id="metabolisme"></span></p>
+            <p class="marge_haute_reduite"><span class="vert gras" onclick="afficher('vie');">Vie</span><br>
+                <span id="vie" class="invisible">
+                    <span class="echelon_un">Constitution : <span id="constitution"></span></span><br>
+                    <span class="echelon_un">Métabolisme : <span id="metabolisme"></span></span>
+                </span>
+            </p>
 
-            <p>Sève<br>
-            Intelligence : <span id="intelligence"></span><br>
-            Sagesse : <span id="sagesse"></span></p>
+            <p class="marge_haute_reduite"><span class="vert gras" onclick="afficher('seve');">Sève</span><br>
+                <span id="seve" class="invisible">
+                    <span class="echelon_un">Intelligence : <span id="intelligence"></span></span><br>
+                    <span class="echelon_un">Sagesse : <span id="sagesse"></span></span>
+                </span>
+            </p>
 
-            <p>Endurance<br>
-            Force : <span id="force"></span><br>
-            Équilibre : <span id="equilibre"></span></p>
+            <p class="marge_haute_reduite"><span class="vert gras" onclick="afficher('endurance');">Endurance</span><br>
+                <span id="endurance" class="invisible">
+                    <span class="echelon_un">Force : <span id="force"></span></span><br>
+                    <span class="echelon_un">Équilibre : <span id="equilibre"></span></span>
+                </span>
+                </p>
 
-            <p>Concentration<br>
-            Dextérité : <span id="dexterite"></span><br>
-            Volonté : <span id="volonte"></span></p>
+            <p class="marge_haute_reduite"><span class="vert gras" onclick="afficher('concentration');">Concentration</span><br>
+                <span id="concentration" class="invisible">
+                    <span class="echelon_un">Dextérité : <span id="dexterite"></span></span><br>
+                    <span class="echelon_un">Volonté : <span id="volonte"></span></span>
+                </span>
+            </p>
         </div>
     </div>
     

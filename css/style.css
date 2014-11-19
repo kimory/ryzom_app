@@ -55,6 +55,16 @@ body{
     text-decoration: none;
 }
 
+/* vert */
+.vert{
+    color : green;
+}
+
+/* gras */
+.gras{
+    font-weight:bold;
+}
+
 /* _le_ message d'erreur Ajax si il y a lieu */
 #erreur{
     color:red;
@@ -86,4 +96,9 @@ body{
 #competences{
     /* background-color: #C390D5; violet clair */
     background-color: #BEEFB4; /* vert clair */
+}
+
+/* premier échelon */
+.echelon_un{
+    padding-left : 5%;
 }
