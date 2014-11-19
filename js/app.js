@@ -99,8 +99,48 @@ xhr.onreadystatechange  = function()
                     noeud_competence = document.createTextNode(texte_competence);
                     paragraphe_competence = document.createElement("p");
                     paragraphe_competence.appendChild(noeud_competence);
-                    // le style du paragraphe :
+                    
+                    // le style commun à tous les paragraphes :
                     paragraphe_competence.classList.add("marge_haute_reduite");
+                    
+                    // le style qui dépend de l'échelon de la compétence (= la longueur du code de la compétence) :
+                    switch(code_competence.length) {
+                        case 3:
+                            paragraphe_competence.classList.add("echelon_un");
+                            break;
+                        case 4:
+                            paragraphe_competence.classList.add("echelon_deux");
+                            break;
+                        case 5:
+                            paragraphe_competence.classList.add("echelon_trois");
+                            break;
+                        case 6:
+                            paragraphe_competence.classList.add("echelon_quatre");
+                            break;
+                        case 7:
+                            paragraphe_competence.classList.add("echelon_cinq");
+                            break;
+                        //default:
+                    }
+                    
+                    // le style qui dépend des compétences suivantes débloquées :
+                    // on regarde si parmi l'ensemble des compétences certaines commencent par le même code + au moins une autre lettre après
+                    var code_competence_a_comparer;
+                    var pattern = code_competence + '.+';
+                    var regex = new RegExp(pattern);
+                            
+                    for (var j = 0 ; j < nb_competences ; j++) {
+                        code_competence_a_comparer = skillsChildren[j].nodeName;
+                        
+                        if (regex.test(code_competence_a_comparer)){
+                            // il y a des compétences "enfants"
+                            paragraphe_competence.classList.add("vert");
+                            paragraphe_competence.classList.add("gras");
+                            break; // on sort de la boucle à partir du moment où on est passé ici une fois
+                        }
+                    }
+                    
+                    // appendChild du paragraphe créé :
                     $('contenu_competences').appendChild(paragraphe_competence);
 
                     // pour récupérer le niveau max

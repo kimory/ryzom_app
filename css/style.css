@@ -102,3 +102,23 @@ body{
 .echelon_un{
     padding-left : 5%;
 }
+
+/* deuxième échelon */
+.echelon_deux{
+    padding-left : 10%;
+}
+
+/* troisième échelon */
+.echelon_trois{
+    padding-left : 15%;
+}
+
+/* quatrième échelon */
+.echelon_quatre{
+    padding-left : 20%;
+}
+
+/* cinquième échelon */
+.echelon_cinq{
+    padding-left : 25%;
+}
