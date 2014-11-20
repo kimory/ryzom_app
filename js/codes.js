@@ -422,5 +422,11 @@ var codes = {
     "scmc"	: "Créer Armes de Combat Rapproché",
     "scmca"	: "Initié en Création d'Armes de Combat Rapproché",
     "scmcae"	: "Expert en Création d'Armes de Combat Rapproché",
-    "scmcaem"	: "Maître en Création d'Armes de Combat Rapproché"
+    "scmcaem"	: "Maître en Création d'Armes de Combat Rapproché",
+    "kami"	: "Kami",
+    "karavan"	: "Karavan",
+    "fyros"	: "Fyros",
+    "tryker"	: "Tryker",
+    "matis"	: "Matis",
+    "zorai"	: "Zoraï"
 };

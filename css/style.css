@@ -95,15 +95,8 @@ body{
    display : none;
 }
 
-/* la div contenant les caractéristiques */
-#caracteristiques{
-    /* background-color: #BEE2EB; bleu clair */
-    background-color: #BEEFB4; /* vert clair */
-}
-
-/* la div contenant les compétences */
-#competences{
-    /* background-color: #C390D5; violet clair */
+/* les div "caractéristiques, compétences, renommée" */
+#caracteristiques, #competences, #renommee{
     background-color: #BEEFB4; /* vert clair */
 }
 

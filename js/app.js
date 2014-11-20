@@ -100,6 +100,7 @@ xhr.onreadystatechange  = function()
                 var basePtsConcentration = ptsConcentrationXML[0].getAttribute("base");
                 $('base_pts_concentration').innerHTML = basePtsConcentration;
                 
+                // ---------------------------------------
                 // pour les compétences
                 var skills = doc.getElementsByTagName('skills'); // l'ensemble des balises nommées "skills"
                 var skillsChildren = skills[0].childNodes; // les noeuds enfants de la seule balise "skills" skills[0]
@@ -197,7 +198,32 @@ xhr.onreadystatechange  = function()
                 paragraphe_competence_max.classList.add("marge_basse_augmentee");
                 // syntaxe → node.insertBefore(newnode, existingchild);
                 $('contenu_competences').insertBefore(paragraphe_competence_max, $('contenu_competences').firstChild);
-               
+                
+                // ---------------------------------------
+                // pour les renommées
+                var fame = doc.getElementsByTagName('fame'); // l'ensemble des balises nommées "fame"
+                var fameChildren = fame[0].childNodes; // les noeuds enfants de la seule balise "fame" fame[0]
+                var nb_fames = 6; // attention, on ne s'intéresse volontairement qu'aux 6 premiers noeuds (factions et civilisations, pas tribus)
+                var valeur, pts;
+            
+                // on parcourt les renommées et on crée un paragraphe avec les infos pour chacune
+                for (var i = 0 ; i < nb_fames ; i++) {
+                    // récupération des infos des renommées
+                    code_fame = fameChildren[i].nodeName; // nom de la balise
+                    nom_fame = getNameByCode(code_fame); // nom de la renommée correspondant au code (abréviation) récupéré
+                    pts = doc.getElementsByTagName(code_fame)[0].firstChild.nodeValue; // valeur à l'intérieur de la balise
+                    // la valeur de la renommée correspond à la valeur entière des "pts" divisée par 6000 :
+                    valeur = Math.floor(pts/6000);
+
+                    // inscription dans la page des infos sur les renommées (on concatène pour avoir toutes les renommées)              
+                    var texte_renommee = nom_fame + " : " + valeur;
+                    var texte_pts_renommee = "Pts : " + pts + " ";
+                    var texte_prochain_pt_renommee = "TODO";
+                    $('contenu_renommee').innerHTML += '<p><span class="vert gras">' +
+                            texte_renommee + '</span><br><span class="precision">' +
+                            texte_pts_renommee + ' <span class="precision">(prochain pt : ' +
+                            texte_prochain_pt_renommee + ')</span></span></p>';
+                }
         }else{
             // document.ajax.dyn = "Error code " + xhr.status;
             $('erreur').innerHTML = "ERREUR (error code : " + xhr.status + ")<br><i>(Vérifiez que la connexion réseau est bien activée.)</i>";
