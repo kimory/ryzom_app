@@ -69,7 +69,37 @@ xhr.onreadystatechange  = function()
                 var volonteXML = doc.getElementsByTagName('will');
                 var volonte = volonteXML[0].firstChild.nodeValue;
                 $('volonte').innerHTML = volonte;
-               
+                
+                // on récupère les points de vie, sève, etc. actuels, ainsi que leur base 
+                // (= les points sans les bonus des équipements portés par ex)
+                var ptsVieXML = doc.getElementsByTagName('hitpoints');
+                var ptsVie = ptsVieXML[0].firstChild.nodeValue;
+                $('pts_vie').innerHTML = ptsVie;
+                // base :
+                var basePtsVie = ptsVieXML[0].getAttribute("base");
+                $('base_pts_vie').innerHTML = basePtsVie;
+                
+                var ptsSeveXML = doc.getElementsByTagName('sap');
+                var ptsSeve = ptsSeveXML[0].firstChild.nodeValue;
+                $('pts_seve').innerHTML = ptsSeve;
+                // base :
+                var basePtsSeve = ptsSeveXML[0].getAttribute("base");
+                $('base_pts_seve').innerHTML = basePtsSeve;
+                
+                var ptsEnduranceXML = doc.getElementsByTagName('stamina');
+                var ptsEndurance = ptsEnduranceXML[0].firstChild.nodeValue;
+                $('pts_endurance').innerHTML = ptsEndurance;
+                // base :
+                var basePtsEndurance = ptsEnduranceXML[0].getAttribute("base");
+                $('base_pts_endurance').innerHTML = basePtsEndurance;
+                
+                var ptsConcentrationXML = doc.getElementsByTagName('focus');
+                var ptsConcentration = ptsConcentrationXML[0].firstChild.nodeValue;
+                $('pts_concentration').innerHTML = ptsConcentration;
+                // base :
+                var basePtsConcentration = ptsConcentrationXML[0].getAttribute("base");
+                $('base_pts_concentration').innerHTML = basePtsConcentration;
+                
                 // pour les compétences
                 var skills = doc.getElementsByTagName('skills'); // l'ensemble des balises nommées "skills"
                 var skillsChildren = skills[0].childNodes; // les noeuds enfants de la seule balise "skills" skills[0]

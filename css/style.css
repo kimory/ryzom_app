@@ -65,6 +65,12 @@ body{
     font-weight:bold;
 }
 
+/* les précisions */
+.precision{
+    font-style: italic;
+    font-size: 0.9em;
+}
+
 /* _le_ message d'erreur Ajax si il y a lieu */
 #erreur{
     color:red;
