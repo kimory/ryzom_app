@@ -96,9 +96,9 @@ xhr.onreadystatechange  = function()
 
                     // inscription dans la page des infos sur les compétences
                     texte_competence = nom_competence + ' : ' + niveau_tronque + ' (' + prochain_niveau + ' %)';
-                    noeud_competence = document.createTextNode(texte_competence);
+                    //noeud_competence = document.createTextNode(texte_competence); => déplacé plus loin (le texte peut changer)
                     paragraphe_competence = document.createElement("p");
-                    paragraphe_competence.appendChild(noeud_competence);
+                    //paragraphe_competence.appendChild(noeud_competence); => déplacé plus loin (le texte peut changer)
                     
                     // le style commun à tous les paragraphes :
                     paragraphe_competence.classList.add("marge_haute_reduite");
@@ -136,9 +136,17 @@ xhr.onreadystatechange  = function()
                             // il y a des compétences "enfants"
                             paragraphe_competence.classList.add("vert");
                             paragraphe_competence.classList.add("gras");
+                            // on supprime le " (0 %)' inutile
+                            texte_competence = texte_competence.replace(" (0 %)", "");
+                            
                             break; // on sort de la boucle à partir du moment où on est passé ici une fois
                         }
                     }
+                    
+                    // on crée un noeud avec le texte défini :
+                    noeud_competence = document.createTextNode(texte_competence);
+                    // appendChild du noeud créé :
+                    paragraphe_competence.appendChild(noeud_competence);
                     
                     // appendChild du paragraphe créé :
                     $('contenu_competences').appendChild(paragraphe_competence);
@@ -162,7 +170,7 @@ xhr.onreadystatechange  = function()
                
         }else{
             // document.ajax.dyn = "Error code " + xhr.status;
-            $('erreur').innerHTML = "ERREUR (error code : " + xhr.status + ")";
+            $('erreur').innerHTML = "ERREUR (error code : " + xhr.status + ")<br><i>(Vérifiez que la connexion réseau est bien activée.)</i>";
         }
     }
 }; 
