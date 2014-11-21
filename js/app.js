@@ -178,8 +178,8 @@ xhr.onreadystatechange  = function()
                             // il y a des compétences "enfants"
                             paragraphe_competence.classList.add("vert");
                             paragraphe_competence.classList.add("gras");
-                            // on supprime le " (0 %)' inutile
-                            texte_competence = texte_competence.replace(" (0 %)", "");
+                            // on supprime le " (0%)' inutile
+                            texte_competence = texte_competence.replace(" (0%)", "");
                             
                             break; // on sort de la boucle à partir du moment où on est passé ici une fois
                         }
