@@ -95,8 +95,8 @@ body{
    display : none;
 }
 
-/* les div "caractéristiques, compétences, renommée" */
-#caracteristiques, #competences, #renommee{
+/* les div "caractéristiques, compétences, renommée, points de faction" */
+#caracteristiques, #competences, #renommee, #pts_faction{
     background-color: #BEEFB4; /* vert clair */
 }
 

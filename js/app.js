@@ -204,15 +204,17 @@ xhr.onreadystatechange  = function()
                 var fame = doc.getElementsByTagName('fame'); // l'ensemble des balises nommées "fame"
                 var fameChildren = fame[0].childNodes; // les noeuds enfants de la seule balise "fame" fame[0]
                 var nb_fames = 6; // attention, on ne s'intéresse volontairement qu'aux 6 premiers noeuds (factions et civilisations, pas tribus)
-                var valeur, pts, pts_palier_suivant, pts_palier_en_cours;
+                var code_fame, nom_fame, valeur, pts, pts_palier_suivant, pts_palier_en_cours,
+                        texte_renommee, texte_pts_renommee, texte_prochain_pt_renommee;
             
                 // on parcourt les renommées et on crée un paragraphe avec les infos pour chacune
                 for (var i = 0 ; i < nb_fames ; i++) {
                     // récupération des infos des renommées
                     code_fame = fameChildren[i].nodeName; // nom de la balise
                     nom_fame = getNameByCode(code_fame); // nom de la renommée correspondant au code (abréviation) récupéré
-                    pts = doc.getElementsByTagName(code_fame)[0].firstChild.nodeValue; // valeur à l'intérieur de la balise
+                    pts = fameChildren[i].firstChild.nodeValue; // valeur à l'intérieur de la balise
                     
+                    // note : 6000 pts = 1 pt de renommée
                     if(pts >= 0){ // si les points sont positifs
                         // la valeur de la renommée correspond à la valeur entière des "pts" divisée par 6000 :
                         valeur = Math.floor(pts/6000);
@@ -246,13 +248,42 @@ xhr.onreadystatechange  = function()
                     }
 
                     // inscription dans la page des infos sur les renommées (on concatène pour avoir toutes les renommées)              
-                    var texte_renommee = nom_fame + " : " + valeur;
-                    var texte_pts_renommee = "Pts : " + pts + " ";
-                    var texte_prochain_pt_renommee = "(prochain pt : " + prochain_point_renommee + ")";
+                    texte_renommee = nom_fame + " : " + valeur;
+                    texte_pts_renommee = "Pts : " + pts + " ";
+                    texte_prochain_pt_renommee = "(prochain pt : " + prochain_point_renommee + ")";
                     $('contenu_renommee').innerHTML += '<p><span class="vert gras">' +
                             texte_renommee + '</span><br><span class="precision">' +
                             texte_pts_renommee + ' <span class="precision">' +
                             texte_prochain_pt_renommee + '</span></span></p>';
+                }
+                
+                // ---------------------------------------
+                // pour les points de factions
+                var factionPoints = doc.getElementsByTagName('factionpoints'); // l'ensemble des balises nommées "factionpoints"
+                var factionPointsChildren = factionPoints[0].childNodes; // les noeuds enfants de la seule balise "factionpoints" factionpoints[0]
+                var nbFactionPoints = factionPointsChildren.length; // le nb des noeuds
+                var codeFactionPoints, nomFactionPoints, valeurFactionPoints;
+
+                // on parcourt les infos des points de factions et on crée un paragraphe pour chacune
+                for (var i = 0 ; i < nbFactionPoints ; i++) {
+                    // récupération des infos des pts de faction
+                    codeFactionPoints = factionPointsChildren[i].nodeName; // nom de la balise
+                    nomFactionPoints = getNameByCode(codeFactionPoints); // nom de la faction correspondant au code (abréviation) récupéré
+                    valeurFactionPoints = factionPointsChildren[i].firstChild.nodeValue; // valeur à l'intérieur de la balise
+              
+                    // inscription dans la page des infos sur les pts de faction :
+                    $('contenu_pts_faction').innerHTML += '<p><span class="vert gras">' +
+                            nomFactionPoints + ' : </span>' +
+                            valeurFactionPoints + '</p>';
+                    
+                    // alternative (tout en vert et gras) :
+                    //texte_pts_faction = nomFactionPoints + ' : ' + valeurFactionPoints;
+                    //noeud_pts_faction = document.createTextNode(texte_pts_faction);
+                    //paragraphe_pts_faction = document.createElement("p");
+                    //paragraphe_pts_faction.appendChild(noeud_pts_faction);
+                    //paragraphe_pts_faction.classList.add("vert");
+                    //paragraphe_pts_faction.classList.add("gras");
+                    //$('contenu_pts_faction').appendChild(paragraphe_pts_faction);
                 }
         }else{
             // document.ajax.dyn = "Error code " + xhr.status;
