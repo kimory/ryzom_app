@@ -137,7 +137,7 @@ xhr.onreadystatechange  = function()
                     prochain_niveau = Math.floor(niveau*100 - niveau_tronque*100); // Math.floor pour gérer les qqs cas où il y a des longues décimales
 
                     // inscription dans la page des infos sur les compétences
-                    texte_competence = nom_competence + ' : ' + niveau_tronque + ' (' + prochain_niveau + ' %)';
+                    texte_competence = nom_competence + ' : ' + niveau_tronque + ' (' + prochain_niveau + '%)';
                     //noeud_competence = document.createTextNode(texte_competence); => déplacé plus loin (le texte peut changer)
                     paragraphe_competence = document.createElement("p");
                     //paragraphe_competence.appendChild(noeud_competence); => déplacé plus loin (le texte peut changer)
