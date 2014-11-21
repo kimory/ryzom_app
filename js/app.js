@@ -261,7 +261,7 @@ xhr.onreadystatechange  = function()
                     // inscription dans la page des infos sur les renommées (on concatène pour avoir toutes les renommées)              
                     texte_renommee = nom_fame + " : " + valeur;
                     texte_pts_renommee = "Pts : " + formatNb(pts) + " ";
-                    texte_prochain_pt_renommee = "(prochain pt : " + prochain_point_renommee + ")";
+                    texte_prochain_pt_renommee = "(suivant : " + prochain_point_renommee + ")";
                     $('contenu_renommee').innerHTML += '<p><span class="vert gras">' +
                             texte_renommee + '</span><br><span class="precision">' +
                             texte_pts_renommee + ' <span class="precision">' +
