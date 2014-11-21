@@ -17,6 +17,17 @@ function afficher(object_id){
     }
 }
 
+// sépare les millions, milliers... par un espace
+function formatNb(nombre){
+    nombre += '';
+    var sep = ' ';
+    var reg = /(\d+)(\d{3})/;
+    while(reg.test(nombre)) {
+      nombre = nombre.replace(reg, '$1' +sep +'$2');
+    }
+    return nombre;
+}
+
 var xhr = new XMLHttpRequest();
 // si on voulait une compatibilité inter-navigateurs :
 //try
@@ -249,7 +260,7 @@ xhr.onreadystatechange  = function()
 
                     // inscription dans la page des infos sur les renommées (on concatène pour avoir toutes les renommées)              
                     texte_renommee = nom_fame + " : " + valeur;
-                    texte_pts_renommee = "Pts : " + pts + " ";
+                    texte_pts_renommee = "Pts : " + formatNb(pts) + " ";
                     texte_prochain_pt_renommee = "(prochain pt : " + prochain_point_renommee + ")";
                     $('contenu_renommee').innerHTML += '<p><span class="vert gras">' +
                             texte_renommee + '</span><br><span class="precision">' +
