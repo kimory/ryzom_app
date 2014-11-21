@@ -428,5 +428,9 @@ var codes = {
     "fyros"	: "Fyros",
     "tryker"	: "Tryker",
     "matis"	: "Matis",
-    "zorai"	: "Zoraï"
+    "zorai"	: "Zoraï",
+    "fight"	: "Combat",
+    "magic"	: "Magie",
+    "craft"	: "Récolte",
+    "harvest"	: "Artisanat"
 };

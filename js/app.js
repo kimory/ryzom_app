@@ -204,10 +204,10 @@ xhr.onreadystatechange  = function()
                 var fame = doc.getElementsByTagName('fame'); // l'ensemble des balises nommées "fame"
                 var fameChildren = fame[0].childNodes; // les noeuds enfants de la seule balise "fame" fame[0]
                 var nb_fames = 6; // attention, on ne s'intéresse volontairement qu'aux 6 premiers noeuds (factions et civilisations, pas tribus)
-                var code_fame, nom_fame, valeur, pts, pts_palier_suivant, pts_palier_en_cours,
+                var code_fame, nom_fame, valeur, pts, pts_palier_suivant, pts_palier_en_cours, prochain_point_renommee,
                         texte_renommee, texte_pts_renommee, texte_prochain_pt_renommee;
             
-                // on parcourt les renommées et on crée un paragraphe avec les infos pour chacune
+                // on parcourt les renommées et on renseigne les infos pour chacune
                 for (var i = 0 ; i < nb_fames ; i++) {
                     // récupération des infos des renommées
                     code_fame = fameChildren[i].nodeName; // nom de la balise
@@ -264,7 +264,7 @@ xhr.onreadystatechange  = function()
                 var nbFactionPoints = factionPointsChildren.length; // le nb des noeuds
                 var codeFactionPoints, nomFactionPoints, valeurFactionPoints;
 
-                // on parcourt les infos des points de factions et on crée un paragraphe pour chacune
+                // on parcourt les infos des points de faction et on renseigne les infos pour chacune
                 for (var i = 0 ; i < nbFactionPoints ; i++) {
                     // récupération des infos des pts de faction
                     codeFactionPoints = factionPointsChildren[i].nodeName; // nom de la balise
@@ -284,6 +284,30 @@ xhr.onreadystatechange  = function()
                     //paragraphe_pts_faction.classList.add("vert");
                     //paragraphe_pts_faction.classList.add("gras");
                     //$('contenu_pts_faction').appendChild(paragraphe_pts_faction);
+                }
+                
+                // ---------------------------------------
+                // pour les points de compétence
+                var skillPoints = doc.getElementsByTagName('skillpoints'); // l'ensemble des balises nommées "skillpoints"
+                var skillPointsChildren = skillPoints[0].childNodes; // les noeuds enfants de la seule balise "skillpoints" skillpoints[0]
+                var nbSkillPoints = skillPointsChildren.length; // le nb des noeuds
+                var codeSkillPoints, nomSkillPoints, valeurSkillPoints, valeurSpentSkillPoints, texte_pts_competence, texte_pts_competence_depenses;
+            
+                // on parcourt les infos des points de compétence et on renseigne les infos pour chacune
+                for (var i = 0 ; i < nbSkillPoints ; i++) {
+                    // récupération des pts de compétence
+                    codeSkillPoints = skillPointsChildren[i].nodeName; // nom de la balise
+                    nomSkillPoints = getNameByCode(codeSkillPoints); // nom de la compétence correspondant au code (abréviation) récupéré
+                    valeurSkillPoints = skillPointsChildren[i].firstChild.nodeValue; // valeur à l'intérieur de la balise
+                    // les pts déjà dépensés pour la compétence (attribut "spent")
+                    valeurSpentSkillPoints = skillPointsChildren[i].getAttribute("spent");
+
+                    // inscription dans la page des infos sur les pts de compétences (on concatène pour toutes les avoir)              
+                    texte_pts_competence = nomSkillPoints + " : " + valeurSkillPoints;
+                    texte_pts_competence_depenses = "Dépensés : " + valeurSpentSkillPoints;
+                    $('contenu_pts_competence').innerHTML += '<p><span class="vert gras">' +
+                            texte_pts_competence + '</span><br><span class="precision">' +
+                            texte_pts_competence_depenses + ' <span class="precision"></p>';
                 }
         }else{
             // document.ajax.dyn = "Error code " + xhr.status;
