@@ -204,7 +204,7 @@ xhr.onreadystatechange  = function()
                 var fame = doc.getElementsByTagName('fame'); // l'ensemble des balises nommées "fame"
                 var fameChildren = fame[0].childNodes; // les noeuds enfants de la seule balise "fame" fame[0]
                 var nb_fames = 6; // attention, on ne s'intéresse volontairement qu'aux 6 premiers noeuds (factions et civilisations, pas tribus)
-                var valeur, pts;
+                var valeur, pts, pts_palier_suivant, pts_palier_en_cours;
             
                 // on parcourt les renommées et on crée un paragraphe avec les infos pour chacune
                 for (var i = 0 ; i < nb_fames ; i++) {
@@ -217,21 +217,42 @@ xhr.onreadystatechange  = function()
                         // la valeur de la renommée correspond à la valeur entière des "pts" divisée par 6000 :
                         valeur = Math.floor(pts/6000);
                         
+                        // pour les points vers la valeur suivante :
+                        // on calcule les points nécessaires pour le palier suivant :
+                        pts_palier_suivant = (valeur + 1) * 6000;
+                        // on fait la différence entre les points requis et les points déjà acquis :
+                        prochain_point_renommee = pts_palier_suivant - pts;
+                
                     }else{ // si les points sont négatifs
                         // on fait le Math.floor sur la valeur absolue, et on rajoute le "moins" devant
                         // (car Math.floor donne l'entier inférieur ou égal le plus proche,
                         // donc -8.6 donnerait -9 et pas -8 comme dans le jeu)
                         valeur = -Math.floor(Math.abs(pts) / 6000);
+                        
+                        // pour les points vers la valeur suivante :
+                        // par exemple -12800 donne "-2" et "-11999" donne -1 (=> il faudrait 801 pts pour passer le palier)
+                        // on calcule les points nécessaires pour le palier EN COURS :
+                        pts_palier_en_cours = valeur * 6000; // dans l'ex. -2 * 6000 = -12000
+                        // on calcule la différence entre la valeur absolue des pts actuels 
+                        // et celle des pts pour le palier en cours. On ajoute 1.
+                        prochain_point_renommee = Math.abs(pts) - Math.abs(pts_palier_en_cours) + 1; // ds l'ex : 12800-12000+1=801
+                        
+                        // cas particulier quand on passe de -1 à zéro, je veux qu'on marque zéro 
+                        // lorsque la valeur des points est réellement à zéro et non à -5999
+                        // je rajoute 5999 au total trouvé
+                        if(valeur == -1){
+                            prochain_point_renommee += 5999;
+                        }
                     }
 
                     // inscription dans la page des infos sur les renommées (on concatène pour avoir toutes les renommées)              
                     var texte_renommee = nom_fame + " : " + valeur;
                     var texte_pts_renommee = "Pts : " + pts + " ";
-                    var texte_prochain_pt_renommee = "TODO";
+                    var texte_prochain_pt_renommee = "(prochain pt : " + prochain_point_renommee + ")";
                     $('contenu_renommee').innerHTML += '<p><span class="vert gras">' +
                             texte_renommee + '</span><br><span class="precision">' +
-                            texte_pts_renommee + ' <span class="precision">(prochain pt : ' +
-                            texte_prochain_pt_renommee + ')</span></span></p>';
+                            texte_pts_renommee + ' <span class="precision">' +
+                            texte_prochain_pt_renommee + '</span></span></p>';
                 }
         }else{
             // document.ajax.dyn = "Error code " + xhr.status;
