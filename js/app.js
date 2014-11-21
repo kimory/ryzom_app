@@ -212,8 +212,17 @@ xhr.onreadystatechange  = function()
                     code_fame = fameChildren[i].nodeName; // nom de la balise
                     nom_fame = getNameByCode(code_fame); // nom de la renommée correspondant au code (abréviation) récupéré
                     pts = doc.getElementsByTagName(code_fame)[0].firstChild.nodeValue; // valeur à l'intérieur de la balise
-                    // la valeur de la renommée correspond à la valeur entière des "pts" divisée par 6000 :
-                    valeur = Math.floor(pts/6000);
+                    
+                    if(pts >= 0){ // si les points sont positifs
+                        // la valeur de la renommée correspond à la valeur entière des "pts" divisée par 6000 :
+                        valeur = Math.floor(pts/6000);
+                        
+                    }else{ // si les points sont négatifs
+                        // on fait le Math.floor sur la valeur absolue, et on rajoute le "moins" devant
+                        // (car Math.floor donne l'entier inférieur ou égal le plus proche,
+                        // donc -8.6 donnerait -9 et pas -8 comme dans le jeu)
+                        valeur = -Math.floor(Math.abs(pts) / 6000);
+                    }
 
                     // inscription dans la page des infos sur les renommées (on concatène pour avoir toutes les renommées)              
                     var texte_renommee = nom_fame + " : " + valeur;
