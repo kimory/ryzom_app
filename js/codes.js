@@ -431,6 +431,6 @@ var codes = {
     "zorai"	: "Zoraï",
     "fight"	: "Combat",
     "magic"	: "Magie",
-    "craft"	: "Récolte",
-    "harvest"	: "Artisanat"
+    "craft"	: "Artisanat",
+    "harvest"	: "Récolte"
 };
