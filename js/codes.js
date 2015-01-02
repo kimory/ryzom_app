@@ -432,5 +432,13 @@ var codes = {
     "fight"	: "Combat",
     "magic"	: "Magie",
     "craft"	: "Artisanat",
-    "harvest"	: "Récolte"
+    "harvest"	: "Récolte",
+    "rpjob_200.sitem" : "Boucher",
+    "rpjob_201.sitem" : "Fleuriste",
+    "rpjob_202.sitem" : "Porteur d'eau",
+    "rpjob_203.sitem" : "Cartographe en magnétisme",
+    "rpjob_204.sitem" : "Outilleur",
+    "rpjob_205.sitem" : "Secouriste",
+    "rpjob_206.sitem" : "Larviculteur",
+    "rpjob_207.sitem" : "Parcheminier"
 };

@@ -318,7 +318,51 @@ xhr.onreadystatechange  = function()
                     texte_pts_competence_depenses = "Dépensés : " + valeurSpentSkillPoints;
                     $('contenu_pts_competence').innerHTML += '<p><span class="vert gras">' +
                             texte_pts_competence + '</span><br><span class="precision">' +
-                            texte_pts_competence_depenses + ' <span class="precision"></p>';
+                            texte_pts_competence_depenses + ' </span></p>';
+                }
+                
+                // ---------------------------------------
+                // pour les métiers
+                var rpjobs = doc.getElementsByTagName('rpjobs'); // l'ensemble des balises nommées "rpjobs" avec un "s"
+                var rpjobsChildren = rpjobs[0].childNodes; // les noeuds enfants de la seule balise "rpjobs" rpjobs[0]
+                var rpjobs = rpjobsChildren.length; // le nb des noeuds
+                var codeMetier, nomMetier, echelonMetier, pointsMetier;
+                // var texteMetier, noeudMetier, paragrapheMetier;
+                
+                // on parcourt les infos des métiers et on renseigne les infos pour chacun
+                for (var i = 0 ; i < rpjobs ; i++) {
+                    
+                    // si le statut du métier est actif
+                    if(rpjobsChildren[i].getAttribute("active") === "true"){ // on parle bien de la chaine "true"
+                        // récupération du code du métier (attribut "sheet")
+                        codeMetier = rpjobsChildren[i].getAttribute("sheet");
+                        nomMetier = getNameByCode(codeMetier); // nom du métier correspondant au code
+
+                        // récupèration de l'échelon et des points ("progress")
+                        echelonMetier = rpjobsChildren[i].getAttribute("echelon");
+                        pointsMetier = rpjobsChildren[i].getAttribute("progress");
+                    
+                        /* bloc à utiliser si chaque paragraphe de métier a un style uniforme :
+                        // on définit le texte pour chaque métier
+                        texteMetier = nomMetier + ' : échelon ' + echelonMetier + ' (' + pointsMetier + ' pts)';
+                        // on crée le noeud texte correspondant
+                        noeudMetier = document.createTextNode(texteMetier);
+                        // on crée le paragraphe :
+                        paragrapheMetier = document.createElement("p");
+                        // on fait le appendChild du noeud créé :
+                        paragrapheMetier.appendChild(noeudMetier);
+                        // on applique un style au paragraphe :
+                        paragrapheMetier.classList.add("marge_haute_reduite");
+                        // appendChild du paragraphe créé dans la div "contenu_metiers" :
+                        $('contenu_metiers').appendChild(paragrapheMetier);
+                        FIN du bloc */
+                                        
+                       // inscription dans la page des infos sur les métiers (on concatène pour tous les avoir)
+                       $('contenu_metiers').innerHTML += '<p><span class="vert gras">' +
+                            nomMetier + '</span><br><span class="echelon_un">Échelon : ' +
+                            echelonMetier + '</span><br><span class="echelon_un">Points : ' +
+                            pointsMetier + '</span></p>';
+                    }
                 }
         }else{
             // document.ajax.dyn = "Error code " + xhr.status;
