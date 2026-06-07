@@ -371,7 +371,7 @@ xhr.onreadystatechange  = function()
     }
 }; 
 
-var url = 'http://api.ryzom.com/character.php?apikey=' + key; // on concatène avec la clé du perso
+var url = 'https://api.ryzom.com/character.php?apikey=' + key; // on concatène avec la clé du perso
 xhr.open('GET', url, true); // true = asynchrone
 xhr.send(null); // avec GET, toujours null
 

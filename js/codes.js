@@ -429,6 +429,7 @@ var codes = {
     "tryker"	: "Tryker",
     "matis"	: "Matis",
     "zorai"	: "Zoraï",
+    "marauder"	: "Maraudeurs",
     "fight"	: "Combat",
     "magic"	: "Magie",
     "craft"	: "Artisanat",
